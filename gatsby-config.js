@@ -17,7 +17,7 @@ module.exports = {
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
-    siteImage: `/banner.jpg`,
+    siteImage: `/sbanner.jpg`,
     // Twitter Handle
     author: `@steinarbragi`
   },

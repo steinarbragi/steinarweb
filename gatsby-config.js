@@ -4,7 +4,22 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `steinar.io`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `steinar.io`,
+    // Default title of the page
+    siteTitleAlt: `steinar.io - Web & Mobile development`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `steinar.io - Web & Mobile development`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://steinar.io`,
+    // Used for SEO
+    siteDescription: `steinar.io - I create web and mobile experiences for the next generation of consumer-facing companies.`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@steinarbragi`
   },
   plugins: [
     {
